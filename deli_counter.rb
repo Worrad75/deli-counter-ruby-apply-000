@@ -3,8 +3,8 @@
 def line(array)
   
   puts "the line is currently: "
-  array.each do
-      
+  array.each.with_index do |name, index|
+      print ""
   end
   
 end
