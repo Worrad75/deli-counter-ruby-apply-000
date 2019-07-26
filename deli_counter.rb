@@ -10,4 +10,4 @@ def line(array)
   
 end
 
-def 
+def take_a_number(line, name)
