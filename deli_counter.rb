@@ -4,9 +4,8 @@ def line(array)
   
   puts "the line is currently: "
   array.each.with_index do |name, index|
-      print ""
+      print "#{name}: #{index}. "
   end
   
 end
 
-def 
