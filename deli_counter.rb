@@ -24,6 +24,5 @@ def now_serving(katz_deli)
   else
     puts "now serving #{katz_deli.shift}!"
   end
-  
 end
 
