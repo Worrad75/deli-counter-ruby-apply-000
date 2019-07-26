@@ -7,7 +7,7 @@ def line(array)
     line_array.push("#{index}: #{name}. ")
   end
   line_array.join(" ")
-  puts "the line is currently: "
+  puts "the line is currently: #{line_array}"
   
 end
 
