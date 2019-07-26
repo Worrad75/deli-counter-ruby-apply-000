@@ -3,15 +3,22 @@
 def line(array)
   line_array = []
   
-  array.each.with_index do |name, index|
-    line_array.push("#{index}: #{name}, ")
+  if array.length == 0
+    puts "the line is empty!"
+  else
+    array.each.with_index do |name, index|
+      line_array.push("#{index}: #{name}, ")
+    end
+    puts "the line is currently: #{line_array.join("")}"
   end
-  puts "the line is currently: #{line_array.join("")}"
-  
 end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  position = katz_deli.length
-  puts "Welcome to Katz Deli, #{name}! You are number #{position} in line."
+  puts "Welcome to Katz Deli, #{name}! You are number #{katz_deli.length} in line."
+end
+
+def now_serving
   
+  
+end
