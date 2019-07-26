@@ -10,3 +10,4 @@ def line(array)
   
 end
 
+def 
