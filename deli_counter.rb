@@ -1,5 +1,3 @@
-# Write your code here.
-
 def line(array)
   line_array = []
   
@@ -7,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each.with_index do |name, index|
-      line_array.push("#{index}: #{name}, ")
+      line_array.push("#{index}: #{name} ")
     end
     puts "the line is currently: #{line_array.join("")}"
   end
@@ -25,4 +23,3 @@ def now_serving(katz_deli)
     puts "now serving #{katz_deli.shift}!"
   end
 end
-
