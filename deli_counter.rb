@@ -4,7 +4,7 @@ def line(array)
   line_array = []
   
   if array.length == 0
-    puts "the line is empty!"
+    puts "The line is currently empty."
   else
     array.each.with_index do |name, index|
       line_array.push("#{index}: #{name}, ")
