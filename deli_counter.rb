@@ -51,7 +51,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each.with_index do |name, index|
-      line_array.push("#{index+1}: #{name}")
+      line_array.push("#{index+1}. #{name}")
     end
     puts "The line is currently: #{line_array.join(" ")}"
   end
