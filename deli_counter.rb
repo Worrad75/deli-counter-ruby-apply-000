@@ -1,8 +1,9 @@
 # Write your code here.
 
-def line
-  #
-  if 
+def line(array)
+  
+  puts "the line is currently: "
+  
 end
 
 def 
